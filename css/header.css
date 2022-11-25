@@ -1,0 +1,93 @@
+#home{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    }
+
+.nome-pizzaria{
+    font-size: 38px;
+    height: 70px;
+    width: 139;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 2px solid #EF0F0F;
+    margin-left: 120px;
+    
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-right: 50px;
+    gap: 49px;
+    color: #FFFFFF;
+}
+
+.nav-itens{
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.nome-pizzaria{
+    color: #FFFFFF;
+}
+
+.nome-container{
+    width: min-content;
+}
+
+
+
+
+.paragrafo-frase{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+.frase{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Mulish', sans-serif;
+    }
+
+.frase-pizzaiola{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(315px);
+    margin-left: 55px;
+}
+
+
+
+
+.image-pizza-container{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-left: 57px;
+    margin-bottom: 47px;
+    height: 197px;
+    width: 299px; ;
+}
+

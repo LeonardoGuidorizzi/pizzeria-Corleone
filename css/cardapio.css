@@ -3,44 +3,58 @@
     height: 100vh;
     width: 100vw;
     border: 30px solid  #490909;
+    padding: 1rem 3.3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .cardapio-title-container{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .cardapio-title{
     font-family:'Dancing Script', cursive;
+    font-size: 96px;
 }
 
 .cardapio-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    flex-grow: 1;
+    width: 100%;
     
 }
-.bebidas-container{
-    height: 562px;
-    width: 395px;
+.produtos-container{
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4.25rem;
+    height: 80%;
+    flex-grow: 1;
 }
 
-.favoritos-container{
-    height: 562px;
-    width: 395px;
+.card-name {
+    font-size: 2rem;
+}
+
+.conteudo-container {
+    flex-grow: 1;
+
+}
+
+.produtos-container:nth-child(2) {
+    background-color: blue;
+}
+
+.produtos-container:nth-child(3) {
     background-color: yellow;
 }
 
-.pizzas-container{
-    height: 562px;
-    width: 395px;
-    background-color: purple;
-}
-
-
-.card-pizza{
-    width: 325px;
-    height: 52px;
+.card-produto{
+    width: 425px;
+    height: 62px;
 }

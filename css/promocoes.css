@@ -3,3 +3,31 @@
     height: 100vh;
     width: 100vw;
 }
+
+.wave-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.promocao{
+    width: 100vw;
+}
+
+
+.promocao-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primeira-promocao{
+    width: 55vw;
+    border-bottom: 2px solid #EF0F0F;
+}
+
+.segunda-promocao{
+    width: 55vw;
+}

@@ -28,33 +28,90 @@
     
 }
 .produtos-container{
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 4.25rem;
     height: 80%;
     flex-grow: 1;
+
+}
+#conteudo-container-pizza{
+    margin-bottom: 10px;
+    border-left: 2px  solid #000;
+    border-right: 2px solid #000;
+
+}
+
+.conteudo-container {
+  margin-top: 5px;
+  flex-grow: 1;
+
 }
 
 .card-name {
     font-size: 2rem;
+    color: #000;
 }
 
-.conteudo-container {
-    flex-grow: 1;
 
-}
 
-.produtos-container:nth-child(2) {
-    background-color: blue;
-}
-
-.produtos-container:nth-child(3) {
-    background-color: yellow;
-}
-
-.card-produto{
-    width: 425px;
-    height: 62px;
-}
+body{
+    display: flex;
+  }
+  
+  
+  .card{
+    display: flex;  
+    flex-direction: column;
+    background-color: black;
+    height: 52px;
+    width: 325px;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  
+  .card:hover{
+    height: 197px;
+  }
+  .header-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px ;
+  
+  }
+  
+  .title-produto{
+   color: #fff;
+  }
+  
+  .price-produto{
+    color: #fff;
+    
+  }
+  
+  .produto-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+  }
+  .ingredientes{
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .image-pizza-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 100%;
+  }
+  
+  .image-pizza-content img{
+    width: 100%;
+    height: 100%;
+  
+  }
+  

@@ -11,23 +11,94 @@
     width: 100%;
 }
 
-.promocao{
-    width: 100vw;
+.promocao-container {
+    padding: 0 10rem;
 }
 
-
-.promocao-container{
+.produtos-combo-nome{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 1000;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
-.primeira-promocao{
-    width: 55vw;
-    border-bottom: 2px solid #EF0F0F;
+.produtos-combo-nome span:nth-child(1) {
+    transform: translateX(-4rem);
 }
 
-.segunda-promocao{
-    width: 55vw;
+.produtos-combo-nome span:nth-child(2) {
+    transform: translateX(-3rem);
+}
+
+.produtos-combo-nome span:nth-child(3) {
+    transform: translateX(0);
+    color: #991111;
+}
+
+.produtos-combo-nome span:nth-child(4) {
+    transform: translateX(1rem);
+}
+
+.produtos-combo-nome span:nth-child(5) {
+    transform: translateX(2rem);
+}
+
+.combo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    flex-direction: row-reverse;
+}
+
+.combo-container:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+.combo-container span {
+    font-size: 3rem;
+    color: red;
+}
+
+.combo-container:nth-child(2) span:nth-child(1) {
+    transform: translateX(2rem);
+}
+
+.combo-container:nth-child(2) span:nth-child(2) {
+    transform: translateX(1rem);
+}
+
+.combo-container:nth-child(2) span:nth-child(3) {
+    transform: translateX(0);
+}
+
+.combo-container:nth-child(2) span:nth-child(4) {
+    transform: translateX(-3rem);
+}
+
+.combo-container:nth-child(2) span:nth-child(5) {
+    transform: translateX(-4rem);
+}
+
+.promocao {
+    width: 100%;
+}
+
+.preco-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preco-container span
+
+span.sinal-igual {
+    font-size: 7rem;
+    font-weight: 900;
 }

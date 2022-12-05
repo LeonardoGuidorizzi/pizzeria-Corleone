@@ -1,0 +1,40 @@
+
+
+.dashboard-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ .product-title-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.688rem;
+  width: 61.25rem;
+  background-color: blueviolet;
+  margin-bottom: 33px;
+ }
+
+ .product-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+  height: 35.375rem;
+  width: 67.438rem;
+  background-color: brown;
+
+ }
+
+.product-content{
+  display: flex;
+  background-color: aquamarine;
+  height: 370px;
+  width: 403px;
+}
+
+
+
+
+

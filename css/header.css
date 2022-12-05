@@ -45,7 +45,12 @@ nav{
     display: flex;
     align-items: center;
     margin-left: 50px;
+    gap: 10px;
 
+}
+
+.logo-container{
+    border-right: 2px solid white;
 }
 
 .nome-pizzaria{

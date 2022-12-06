@@ -1,5 +1,5 @@
 #Sobre-nos{
-  background-color: #FFF1D4;
+  background-color: #E2C299;
   height: 100vh;
   width: 100vw;
 }
@@ -8,14 +8,28 @@
 .title-sobrenos-container{
   display: flex;
   justify-content: center;
+  
+}
+.title-servicos{
+  font-family: mulish;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .servicos-container{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
-
+.servicos-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 84px;
+  
+}
 .servico{
   display: flex;
   align-items: center;
@@ -23,4 +37,21 @@
   flex-direction: column-reverse;
   width: 340px;
   height: 266px;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.local{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.drive-thrue{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+span.title-servicos{
+  /* font-size: larger; */
 }

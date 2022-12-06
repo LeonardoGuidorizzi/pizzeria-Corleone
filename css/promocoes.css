@@ -15,6 +15,10 @@
     padding: 0 10rem;
 }
 
+.promocao {
+    width: 100%;
+}
+
 .produtos-combo-nome{
     display: flex;
     justify-content: center;
@@ -29,23 +33,32 @@
 
 .produtos-combo-nome span:nth-child(1) {
     transform: translateX(-4rem);
+    color: red;
+    font-size: 3rem;
 }
 
 .produtos-combo-nome span:nth-child(2) {
     transform: translateX(-3rem);
+    color: red;
+    font-size: 3rem;
 }
 
 .produtos-combo-nome span:nth-child(3) {
     transform: translateX(0);
     color: #991111;
+    font-size: 3rem;
 }
 
 .produtos-combo-nome span:nth-child(4) {
     transform: translateX(1rem);
+    color: red;
+    font-size: 3rem;
 }
 
 .produtos-combo-nome span:nth-child(5) {
     transform: translateX(2rem);
+    color: red;
+    font-size: 3rem;
 }
 
 .combo-container{
@@ -54,17 +67,16 @@
     align-items: center;
     margin: 50px;
     flex-direction: row-reverse;
+    
 }
 
 .combo-container:nth-child(2){
     display: flex;
     flex-direction: row;
+    border-top: 2px solid #EF0F0F;
 }
 
-.combo-container span {
-    font-size: 3rem;
-    color: red;
-}
+
 
 .combo-container:nth-child(2) span:nth-child(1) {
     transform: translateX(2rem);
@@ -86,19 +98,32 @@
     transform: translateX(-4rem);
 }
 
-.promocao {
-    width: 100%;
-}
+
 
 .preco-container {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    gap: 20px;
     align-items: center;
 }
 
-.preco-container span
-
 span.sinal-igual {
-    font-size: 7rem;
+    font-size: 20rem;
     font-weight: 900;
+    color: red;   
+}
+
+span.sifra{
+    font-size: 3rem;
+    font-weight: 1000;
+    font-family: 'Mulish';
+    color:#FAAA11;
+}
+
+span.preco{
+    font-size: 10rem;
+    font-weight: 1000;
+    font-family: 'Mulish', sans-serif;
+    color:#FAAA11;
 }

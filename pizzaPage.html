@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/cardapio.css">
     <link rel="stylesheet" href="./css/promocoes.css">
     <link rel="stylesheet" href="./css/sobrenos.css">
+    <link rel="stylesheet" href="./css/contato.css">
 </head>
 
 
@@ -334,6 +335,45 @@
 
 
         </section>
+
+    </section>
+ 
+    <section id="contact">
+        <h1>Fale Conosco!</h1>
+        <form id="client-contact">
+            <div class="inputs">
+              
+
+                <div class="client-options">
+                    <input type="text" placeholder="Nome *" name="nome" id="nome" required>
+                    <input type="email" placeholder="Email *" name="email" id="email" required>
+                    <input type="tel" placeholder="Celular *" name="celular" id="celular" required>
+                    <input type="tel" placeholder="Telefone" name="telefone" id="telefone">
+                  
+                    
+
+
+                    <select name="opcao-mensagem" id="opcao-mensagem" required>
+                        <option value="2">Sugestão</option>
+                        <option value="1">Crítica</option>
+                        <option value="3">Elogio</option>
+                    </select>
+
+
+                </div>   
+                
+           
+                
+                <div class="client-message">
+                    <textarea name="message" id="message" placeholder="Mensagem *" required></textarea>
+                </div>
+            </div>
+            <span>
+                Os campos obrigatórios estão marcados com *
+            </span>
+            <button type="submit" class="button-pink submit" id="submit">ENVIAR</button>
+        </form>
+    </section>
 
 
 

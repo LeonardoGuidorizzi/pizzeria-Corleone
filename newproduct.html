@@ -18,7 +18,7 @@
           <input
             type="text"
             name="product-name"
-            id="product-name-input"
+            id="product-name-input"t
             placeholder="Insira o nome do produto"
             class="register-input"
             required
@@ -44,27 +44,33 @@
           <select
             name="product-size-select"
             id="product-size-select"
+            class="product-size-select"
             required
           >
-            <option value="bud">Broto</option>
-            <option value="normal">Normal</option>
-            <option value="big">Grande</option>
+          <option value="normal">Normal</option>
+          <option value="big">Grande</option>
+          <option value="bud">Broto</option>
           </select>
         </div>
+
+        <div class="input-row">
+          <div class="input-container">
+            <label for="product-size-select">Tipo</label>
+            <select
+              name="product-size-select"
+              id="product-size-select"
+              class="product-size-select"
+              required
+            >
+              <option value="bud">Salgada</option>
+              <option value="normal">Doce</option>
+            </select>
+          </div>
         
       </div>
       <div class="input-row">
-        <div class="input-container">
-          <label for="product-category-input">Categoria</label>
-          <input
-            type="text"
-            name="product-category"
-            id="product-category-input"
-            placeholder="Pizza doce, salgada, bebida alcoólica..."
-            class="register-input"
-            required
-          />
-        </div>
+       
+        
         <div class="image-input-container">
           <label for="product-ingredients-input">Imagem</label>
           <input

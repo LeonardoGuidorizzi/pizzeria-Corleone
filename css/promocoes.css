@@ -1,10 +1,10 @@
 #Promocoes-pizzaiolas{
     background-color: #FFF1D4;
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .wave-container{

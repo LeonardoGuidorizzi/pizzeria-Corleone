@@ -13,12 +13,14 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="./images/pizzaria-logo 1.png" type="image/x-icon">
     <script src="./js-path/card-pizza.js" defer></script>
+    <script src="https://kit.fontawesome.com/f52c6e4c0d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/cardapio.css">
     <link rel="stylesheet" href="./css/promocoes.css">
     <link rel="stylesheet" href="./css/sobrenos.css">
     <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 
@@ -248,7 +250,7 @@
                     <div class="preco-container">
                         <span class="sinal-igual">=</span>
                         <span class="sifra">
-                            <span>R$</span> 
+                            <span>R$</span>
                             <span class="preco">59,99</span>
                     </div>
 
@@ -269,14 +271,14 @@
                     <div class="preco-container">
 
 
-                      
-                        
+
+
                         <span class="sifra">
-                                <span>R$</span>
+                            <span>R$</span>
                             <span class="preco">44,99</span>
-                        
-                        <span class="sinal-igual">=</span>
-                        
+
+                            <span class="sinal-igual">=</span>
+
 
                     </div>
 
@@ -308,7 +310,7 @@
             </div>
 
             <div class="nossos-servicos-descricao-container">
-                <span class="nossos-sevicos-descricao">Nossos serviços</span>
+                <span class="nossos-servicos-descricao">Nossos serviços</span>
             </div>
 
             <div class="servicos-container">
@@ -331,54 +333,103 @@
                     </div>
                 </div>
 
-            </div>    
+            </div>
 
 
         </section>
 
-    </section>
- 
-    <section id="contact">
-        <h1>Fale Conosco!</h1>
-        <form id="client-contact">
-            <div class="inputs">
-              
+        </section>
 
-                <div class="client-options">
-                    <input type="text" placeholder="Nome *" name="nome" id="nome" required>
-                    <input type="email" placeholder="Email *" name="email" id="email" required>
-                    <input type="tel" placeholder="Celular *" name="celular" id="celular" required>
-                    <input type="tel" placeholder="Telefone" name="telefone" id="telefone">
-                  
-                    
+        <section id="contact">
+            
 
 
-                    <select name="opcao-mensagem" id="opcao-mensagem" required>
-                        <option value="2">Sugestão</option>
-                        <option value="1">Crítica</option>
-                        <option value="3">Elogio</option>
-                    </select>
+            <form id="client-contact">
+                <div class="inputs">
+                    <div class="client-geral-container">
+                        <div class="container-options">
+                            <div class="client-options">
+                                <input type="text" placeholder="Nome *" name="nome" id="nome" required>
+                                <input type="email" placeholder="Email *" name="email" id="email" required>
+                                <input type="tel" placeholder="Celular *" name="celular" id="celular" required>
+                                <input type="tel" placeholder="Telefone" name="telefone" id="telefone">
 
 
-                </div>   
-                
-           
-                
-                <div class="client-message">
-                    <textarea name="message" id="message" placeholder="Mensagem *" required></textarea>
+
+
+                                <select name="opcao-mensagem" id="opcao-mensagem" required>
+                                    <option value="2">Sugestão</option>
+                                    <option value="1">Crítica</option>
+                                    <option value="3">Elogio</option>
+                                </select>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="container-text">
+                            <div class="client-message">
+                                <textarea name="message" id="message" placeholder="Mensagem *" required></textarea>
+
+                                <button type="submit" class="button-pink submit" id="submit">Salvar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <span>
-                Os campos obrigatórios estão marcados com *
-            </span>
-            <button type="submit" class="button-pink submit" id="submit">ENVIAR</button>
-        </form>
-    </section>
+
+
+            </form>
+        </section>
 
 
 
         <footer>
-
+            <div class="contacts-container">
+    
+                <ul class="contacts">
+    
+                    <div class="telefone">
+                        <li><img src="./imagens/Vector (telefone).png" alt=""></li>
+                        <span>(11) 4774-4700</span>
+                    </div>
+    
+                    <div class="email">
+                        <li><img src="./imagens/Vector (email).png" alt=""></li>
+                        <span>pizzariacorleonne@gmail.com</span>
+                    </div>
+    
+                    <div class="rua">
+                        <li><img src="./imagens/Vector (localizacao).png" alt=""></li>
+                        <span>Rua Nazare Azevedo, 331, Centro, Osasco</span>
+                    </div>
+                </ul>
+            </div>
+    
+            <div class="pizzaria">
+                <img class ="logo-footer"src="./images/pizzaria-logo 1.png" alt="">
+                <span class="copyright">| Pizzaria Corleonne</span>
+            </div>
+    
+            <div class="social-media-container">
+                <div class="icon-container">
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="icon-container">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon-container">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon-container">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+    
+            </div>
+    
         </footer>
 
     </main>

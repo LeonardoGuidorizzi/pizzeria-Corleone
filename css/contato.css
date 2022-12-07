@@ -1,4 +1,9 @@
+
+
+
+
 #contact {
+  background-color: #E2C299;
   font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
@@ -6,9 +11,33 @@
   align-items: center;
   gap: 7vh;
 }
+
+
 #contact h1 {
   font-size: 2rem;
   font-weight: 400;
+}
+
+.container-text{
+  display: flex;
+  justify-content: center;
+  width: 678px;
+  height: 578px;
+
+
+}
+
+.container-options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 437px;
+  height: 578px;
+  border: 2px solid red;
+
+
 }
 #client-choose {
   padding: 8vh 1vw;
@@ -30,15 +59,15 @@
 .client-options {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2vh;
   flex-grow: 1;
-  padding: 2vh 6vw;
   border: #000;
 }
 .client-options input, .client-options select {
   background-color: #0000;
-  border: none;
-  border-bottom: 2px solid #000;
+  border: 2px solid red;
+  border-radius: 10px;
   font-size: 1.2rem;
   padding: 10px;
 }
@@ -51,22 +80,29 @@
 
 .client-message {
   display: flex;
+  
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: white;
+  border: 2px solid red;
+  align-items: flex-end;
   flex-grow: 1;
   padding: 2vh 5vw;
 }
 .client-message textarea {
   font-family: 'Inter', sans-serif;
-  background-color: #0000;
-  border: 1px solid #000;
-  border-radius: 25px;
-  height: 100%;
-  width: 90%;
+  background-color: white;
+  border: 2px solid red;
+  margin-top: 35px;
+  border-radius: 10px;
+  width: 605px;
+  height: 351px;
   padding: 14px 14px;
   resize: none;
   font-size: 1.2rem;
+}
+
+.client-message textarea::placeholder {
+  text-align: center;
 }
 
 #client-contact span {
@@ -78,5 +114,10 @@
 }
 
 .submit {
-  width: fit-content;
+  height: 44px;
+  width: 122px;
+  margin-top: 35px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: red;
 }

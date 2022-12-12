@@ -1,10 +1,15 @@
 
 
 .dashboard-body{
+  background-image: url(../images/pizzaslice.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
+  width: 100vw;
 }
  .product-title-container{
   display: flex;
@@ -12,7 +17,9 @@
   align-items: center;
   height: 3.688rem;
   width: 61.25rem;
-  background-color: blueviolet;
+  background-color: #FFF1D4;
+  border: 2px solid red;
+  border-radius: 20px;
   margin-bottom: 33px;
  }
 
@@ -23,7 +30,9 @@
   margin-top: 33px;
   height: 35.375rem;
   width: 67.438rem;
-  background-color: brown;
+  border-radius: 20px;
+  border: 2px solid red;
+  background-color: #FFF1D4;
 
  }
 

@@ -13,11 +13,7 @@
   justify-content: center;
   
 }
-.title-servicos{
-  font-family: mulish;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
+
 
 .servicos-container{
   display: flex;
@@ -67,10 +63,21 @@
 .nossos-servicos-descricao{
   font-family: mulish;
   font-size: 5rem;
-  font-weight: 500;
-  background-color: aqua;
+  color: red;
+  font-weight: 800;
+
 }
 
-span.title-servicos{
-  /* font-size: larger; */
+.title-servicos{
+  font-size: larger;
+  color: red;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: mulish;
+}
+
+.title-sobrenos{
+  color: red;
+  font-weight: 800;
+  font-family: mulish;
 }

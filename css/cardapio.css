@@ -122,4 +122,15 @@ body{
   
   }
 
+  .ver-cadapio-container{
+    display: flex;
+    justify-content: center;
+  }
+
+    .ver-cardapio-content{
+      font-family: mulish;
+      color: #000;
+    }
+
+
   

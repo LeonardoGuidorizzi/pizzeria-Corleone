@@ -13,6 +13,21 @@ footer{
     display: flex;
 }
 
+.youtube{
+    color: red;
+}
+
+.twitter{
+    color: red;
+}
+.instagram{
+    color: red;
+}
+
+.facebook{
+    color: red;
+}
+
 .pizzaria{
     display: flex;
     align-items: center;
@@ -26,6 +41,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 10px;
+    color: red;
   }
 
 .icon-container{
@@ -41,7 +57,7 @@ footer{
 }
 .icon-container{
     border-radius: 50%;
-    border: 1px solid #fff;
+    border: 1px solid red;
     width: 45px;
     height: 45px;
     display: flex;
@@ -53,4 +69,28 @@ footer{
     width: 48px;
     height: 54px;
 }
-  
+
+.pizza-name-footer{
+    color: red;
+}
+
+.telefone-icon{
+    color: red;
+}
+
+.email-icon{
+    color: red;
+}
+
+.rua-icon{
+    color: red;
+}
+
+.information-contact{
+    font-family: roboto;
+}
+
+.pizza-name-footer{
+    font-family: roboto;
+    color: white;
+}

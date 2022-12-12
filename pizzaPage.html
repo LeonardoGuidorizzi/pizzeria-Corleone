@@ -11,7 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;0,1000;1,200;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">    
     <link rel="shortcut icon" href="./images/pizzaria-logo 1.png" type="image/x-icon">
+    
     <script src="./js-path/card-pizza.js" defer></script>
     <script src="https://kit.fontawesome.com/f52c6e4c0d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/header.css">
@@ -126,6 +128,8 @@
 
 
 
+
+
                     </div>
 
 
@@ -233,7 +237,11 @@
 
             </div>
 
+            <div class="ver-cadapio-container">
 
+                <a class="ver-cardapio-content" href="#">Ver cardapio...</a>
+        
+            </div>
 
         </section>
 
@@ -249,9 +257,10 @@
 
                     <div class="preco-container">
                         <span class="sinal-igual">=</span>
-                        <span class="sifra">
+                        <span class="sifrao">
                             <span>R$</span>
                             <span class="preco">59,99</span>
+                        </span>   
                     </div>
 
                     <div class="produtos-combo-nome">
@@ -310,7 +319,7 @@
             </div>
 
             <div class="nossos-servicos-descricao-container">
-                <span class="nossos-servicos-descricao">Nossos serviços</span>
+                <span class="nossos-servicos-descricao">- Nossos serviços</span>
             </div>
 
             <div class="servicos-container">
@@ -341,7 +350,8 @@
         </section>
 
         <section id="contact">
-            
+
+            <span class="contate-nos">Tem alguma sugestão? Contate-nos.</span>
 
 
             <form id="client-contact">
@@ -349,9 +359,9 @@
                     <div class="client-geral-container">
                         <div class="container-options">
                             <div class="client-options">
-                                <input type="text" placeholder="Nome *" name="nome" id="nome" required>
-                                <input type="email" placeholder="Email *" name="email" id="email" required>
-                                <input type="tel" placeholder="Celular *" name="celular" id="celular" required>
+                                <input type="text" placeholder="Nome" name="nome" id="nome" required>
+                                <input type="email" placeholder="Email" name="email" id="email" required>
+                                <input type="tel" placeholder="Celular" name="celular" id="celular" required>
                                 <input type="tel" placeholder="Telefone" name="telefone" id="telefone">
 
 
@@ -371,7 +381,7 @@
 
                         <div class="container-text">
                             <div class="client-message">
-                                <textarea name="message" id="message" placeholder="Mensagem *" required></textarea>
+                                <textarea name="message" id="message" class="mensagem-color"  placeholder ="Mensagem" required></textarea>
 
                                 <button type="submit" class="button-pink submit" id="submit">Salvar</button>
                             </div>
@@ -393,39 +403,39 @@
                 <ul class="contacts">
     
                     <div class="telefone">
-                        <li><img src="./imagens/Vector (telefone).png" alt=""></li>
-                        <span>(11) 4774-4700</span>
+                        <li><img class="telefone-icon" src="./images/telephone-red.png" alt=""></li>
+                        <span class="information-contact">(11) 4774-4700</span>
                     </div>
     
                     <div class="email">
-                        <li><img src="./imagens/Vector (email).png" alt=""></li>
-                        <span>pizzariacorleonne@gmail.com</span>
+                        <li><img class="email-icon" src="./images/email-red.png" alt=""></li>
+                        <span class="information-contact">pizzariacorleonne@gmail.com</span>
                     </div>
     
                     <div class="rua">
-                        <li><img src="./imagens/Vector (localizacao).png" alt=""></li>
-                        <span>Rua Nazare Azevedo, 331, Centro, Osasco</span>
+                        <li><img class="rua-icon" src="./images/location-red.png" alt=""></li>
+                        <span class="information-contact">Rua Nazare Azevedo, 331, Centro, Osasco</span>
                     </div>
                 </ul>
             </div>
     
             <div class="pizzaria">
                 <img class ="logo-footer"src="./images/pizzaria-logo 1.png" alt="">
-                <span class="copyright">| Pizzaria Corleonne</span>
+                <span class="pizza-name-footer">| Pizzaria Corleonne</span>
             </div>
     
             <div class="social-media-container">
                 <div class="icon-container">
-                    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="youtube" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <div class="icon-container">
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
                 </div>
                 <div class="icon-container">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="icon-container">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 </div>
     
             </div>

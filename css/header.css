@@ -24,6 +24,20 @@ nav{
     
 
 }
+.nav-itens::after {
+    content: '';
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 0%;
+    animation: 1s mexer;
+     transition: 400ms all ease-in-out;
+  }
+
+  header nav .nav-itens:hover::after {
+    width: 100%;
+  }
+  
 
 .nav-list{
     display: flex;

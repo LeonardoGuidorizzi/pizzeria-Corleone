@@ -58,7 +58,19 @@
   font-family: mulish, black;
   font-weight: 500;
   font-size: 4rem;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
+.title-sobrenos::before,
+.title-sobrenos::after {
+  content: '';
+  display: inline-block;
+  background-color: red;
+  height: 2px;
+  width: 400px;
+} 
 
 .nossos-servicos-descricao{
   font-family: mulish;

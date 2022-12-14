@@ -39,14 +39,12 @@ body{
   justify-content: center;
   padding: 7%;
   border-top: 3px solid white;
-  
 }
 
 .name-title h1 {
   width: 200px;
   font-size: 50px;
   text-align: center;
-  font-family: dancing-script;
 }
 
 .right-container {

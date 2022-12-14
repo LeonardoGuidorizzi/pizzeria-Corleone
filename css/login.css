@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-  background-image: url("/real-pizzaria-repository/images/pizzaimagedois.png");
+  background-image: url("../images/pizzaimagedois.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,6 +24,17 @@ body{
   align-items: center;
 }
 
+p{
+  font-family: mulish;
+}
+
+h2{
+  font-family: mulish;
+}
+
+label{
+  font-family: mulish;
+}
 .left-container {
 }
 
@@ -46,7 +57,7 @@ body{
   width: 200px;
   font-size: 50px;
   text-align: center;
-  font-family: dancing-script;
+  font-family: 'Dancing Script', cursive;
 }
 
 .right-container {
@@ -115,4 +126,11 @@ body{
     background-color: red;
     font-size: 20px;
     border-radius: 10px;
+}
+
+button{
+  font-family: mulish;
+}
+a{
+  font-family: mulish;
 }

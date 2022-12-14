@@ -8,30 +8,34 @@
 
 .input-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
+  align-items: center;
+  gap: 10px;
   width: 100%;
   margin-top: 1rem;
 }
 
 .image-input-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
   gap: 2rem;
 }
 
 .input-container label,
 .image-input-container label {
+  padding: 0.5%;
   color: var(--yellow-200);
-  font-weight: 700;
+  font-weight: 300;
   font-size: 2rem;
 }
 
 .register-input {
   background: none;
   border: none;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+
   width: 100%;
   font-size: 1.5rem;
   color: #fff;
@@ -40,15 +44,17 @@
 #product-size-select{
   background: none;
   border: none;
-  border-bottom: 2px solid #000;
-  width: 50%;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  /* border-bottom: 2px solid #000; */
+  color: #fff;
+  width: 100%;
 }
 
 input[type='image'] {
-  width: 115px;
-  height: 115px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  width: 35%;
+  height: 12rem;
+  background-color: #EF0F0F;
+  border: 1px solid rgba(255, 0, 25, 0.8);
   padding: 1rem;
   object-fit: cover;
   justify-self: center;

@@ -1,10 +1,46 @@
+body{
+  background-image: url(../images/pizzaslice.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
 main {
-  margin-top: 5rem;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  color: #fff;
 }
+.register-container{
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.69);
+  border: 1px solid rgba(239, 15, 15, 0.8);
+  border-radius: 30px;
+  padding: 3%;
+  gap: 3%;
+}
+
+.title_recipe_div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#input_tamanho_tipo{
+  width: 100%;
+}
+
 
 
 .discount-input-container {
@@ -34,11 +70,13 @@ main {
 
 #product-size-select,
 #product-type-select {
+  width: 5rem;
+  background: #fff;
   margin-top: 0.5rem;
   font-size: 2rem;
   font-weight: 200;
   font-family: 'Inter', sans-serif;
-  border-radius: 64px;
+  /* border-radius: 64px; */
   padding: 12px 24px;
   outline: none;
 }
@@ -48,4 +86,57 @@ main {
   border: none;
   background-color: #fff;
   color: #121212;
+}
+
+.image-input-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input-container-image_preco{
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.discount-input-container{
+  display: flex;
+  align-items: center;
+}
+
+#discount-label-input-container{
+  width: 100%;
+  display: flex;
+  gap: 0.7rem;
+}
+
+.input-container-image_preco label{
+  padding: 0.5%;
+  color: var(--yellow-200);
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.button_div{
+  height:30%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.save-button{
+  background-color: #EF0F0F;
+  color: #fff;
+  width: 20%;
+  height: 90%;
+  border-radius: 2rem;
+  border: none;
+  font-size: 2.5rem;
 }

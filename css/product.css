@@ -37,7 +37,6 @@ main{
   border-radius: 20px;
   border: 2px solid red;
   background-color: #FFF1D4;
-
  }
 
 
@@ -45,12 +44,12 @@ main{
 
 .product-content.scroll {
 
-  width: 435px;
-  height: 368px;
-  overflow-x: hidden;
+  height: 468px;
+  width: 100%;
   overflow-y: auto;
   text-align: center;
-  padding: 20px;
+  justify-content: center;
+  margin: 70px;
 
 
 }
@@ -72,7 +71,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 429px;
+  width: 100%;
   height: 129px;
   border-radius: 5px;
   background-color: white;
@@ -85,12 +84,17 @@ main{
 }
 
 .mini-card-content-product-pizza{
+
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
   gap: 20px;
 }
 
 .title-mini-card-product-pizza{
   font-family: mulish;
+  color: red;
 }
 
 .ingredientes-representation-product-pizza{
@@ -103,13 +107,21 @@ main{
 
 .preco-product-pizza{
   font-family: mulish;
+  color: red;
 }
 
 .container-mini-card-image-product-pizza{
   border-radius: 5px;
   border:2px solid red;
-  height: 88px;
-  width: 124px;
+  height: 80px;
+  width: 126px;
+}
+
+.container-mini-card-image-product-bebida{
+  border-radius: 5px;
+  border:2px solid red;
+  height: 94px;
+  width: 85px;
 }
 
 .price-container-product-pizza{
@@ -131,6 +143,58 @@ border-left: 2px solid red;
   margin-left: 10px;
 }
 
+.product-name-content{
+ width: 490px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.central-line{
+  display: inline-block;
+  background-color: red;
+  height: 80%;
+  width: 4px;
+}
+
+.product{
+  color: red;
+  font-family: mulish;
+}
 
 
+.button-container{
 
+  display: flex;
+  justify-content: space-between;
+  height: 3.688rem;
+  width: 61.25rem;
+  margin-top: 30px;
+}
+
+.button-content{
+  width: 490px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-submit div button{
+  height: 40px;
+  width: 90px;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.add-button {
+  padding: 1rem 2rem;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.5rem;
+}

@@ -1,6 +1,14 @@
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
 #cardapio{
   background-color:#ffff;
-  border: 10px solid  #490909;
+  border: 10px solid #490909;
+  min-height: 100vh;
   height: 100%;
   width: 100%;
 }
@@ -34,7 +42,7 @@
 
 .container-pizzas{
   height: 100%;
-  width: 100%;
+  width: fit-content;
 }
 
 .pizza-input{

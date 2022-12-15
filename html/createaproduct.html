@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../css/newproduct.css">
   <link rel="stylesheet" href="../css/input-styles.css">
   <title>Document</title>
+  <script src="../js/cmsNewProduct.js" defer type="module"></script>
 </head>
 <body>
 
@@ -43,7 +44,7 @@
           <select
             name="product-size-select"
             id="product-size-select"
-            class="product-size-select"
+            class="product-select"
             required
           >
           <option value="normal">Normal</option>
@@ -54,11 +55,11 @@
 
         <div class="input-row">
           <div class="input-container">
-            <label for="product-size-select">Tipo:</label>
+            <label for="product-type-select">Tipo:</label>
             <select
-              name="product-size-select"
-              id="product-size-select"
-              class="product-size-select"
+              name="product-type-select"
+              id="product-type-select"
+              class="product-select"
               required
             >
               <option value="bud">Salgada</option>
@@ -91,6 +92,7 @@
               class="register-input"
               min="0"
               max="100"
+              disabled
             />
             </div>
           </div>
